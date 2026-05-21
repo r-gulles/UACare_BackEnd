@@ -37,12 +37,14 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     ".onrender.com",
+    "https://uacare-backend.onrender.com",
 ]
 
 CORS_ALLOWED_ORIGINS = [ 
     "http://localhost:3000",
     "http://localhost:8081",
     "http://127.0.0.1:8080",
+    "https://ua-care-front-end.vercel.app",
 ]
 
 # Application definition
